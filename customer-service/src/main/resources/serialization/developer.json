@@ -1,0 +1,12 @@
+{
+  "preferredLanguage": "Java",
+  "experience": [
+    {"language":  "Python", "years":  2},
+    {"language":  "Javascript", "years":  3},
+    {"language":  "Java", "years":  5}
+  ],
+  "basicInfo": {
+    "name": "John Doe",
+    "age": 25
+  }
+}
