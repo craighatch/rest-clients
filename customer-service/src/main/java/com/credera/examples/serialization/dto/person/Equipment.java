@@ -2,7 +2,7 @@ package com.credera.examples.serialization.dto.person;
 
 public class Equipment {
     private String type;
-    private boolean isRequired;
+    private boolean required;
 
     public String getType() {
         return type;
@@ -13,10 +13,10 @@ public class Equipment {
     }
 
     public boolean isRequired() {
-        return isRequired;
+        return required;
     }
 
     public void setRequired(boolean required) {
-        isRequired = required;
+        this.required = required;
     }
 }

@@ -18,7 +18,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"name\": \"Bob\",\n    \"age\": 21,\n    \"favoriteHobbies\": [\n        {\n            \"name\": \"Running\",\n            \"location\": \"OUTDOOR\",\n            \"equipment\": {\n                \"type\": \"footwear\",\n                \"isRequired\": true\n            }\n        }\n    ]\n}",
+									"raw": "{\n    \"name\": \"Bob\",\n    \"age\": 21,\n    \"favoriteHobbies\": [\n        {\n            \"name\": \"Running\",\n            \"location\": \"OUTDOOR\",\n            \"equipment\": {\n                \"type\": \"footwear\",\n                \"required\": true\n            }\n        }\n    ]\n}",
 									"options": {
 										"raw": {
 											"language": "json"
