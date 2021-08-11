@@ -1,6 +1,15 @@
 # rest-clients
 Scaffolded code and resources to learn about rest clients
 
+## Environment Set Up
+1. It is assumed that Java (11+) is already installed
+1. Install Postman: `brew install --cask postman`
+   - You do not need to make an account
+1. Verify cURL install: `curl —version`
+   - Install with `brew install curl` otherwise
+1. Clone this repo and import both the customer and account applications into intellij
+   - You will need to run each application simultaneously
+
 ## Exercises
 1. cURL
    - Hit several of the existing Customer endpoints using cURL.  Set debuggers in the relevant endpoints to verify you are connecting to the application
