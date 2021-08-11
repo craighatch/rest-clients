@@ -14,7 +14,7 @@ Scaffolded code and resources to learn about rest clients
      - You should receive the response: {"contentType":"text/plain","greeting":"Hello World"}
 
 1. Postman
-   - Populate the [Developer](src/main/java/com/credera/examples/serialization/dto/developer/Developer.java) such that the [developer.json](src/main/resources/serialization/developer.json) can be deserialized into a `Developer` object
+   - Populate the [Developer](customer-service/src/main/java/com/credera/examples/serialization/dto/developer/Developer.java) such that the [developer.json](customer-service/src/main/resources/serialization/developer.json) can be deserialized into a `Developer` object
      - verify your solution by hitting the `POST /serialization/developer` endpoint with the `developer.json` using Postman
 
 1. RestTemplate
